@@ -4,6 +4,9 @@ import java.lang.reflect.Method;
 
 public class TimeHandler implements InvocationHandler {
 
+	/**
+	 * 被代理类对象
+	 */
 	private Object target;
 	
 	
